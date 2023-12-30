@@ -3,6 +3,7 @@ import Cover from "@/components/layouts/cover";
 import History from "@/components/layouts/history";
 import NavigationBar from "@/components/layouts/navigation-bar";
 import Menu from "@/components/menu";
+import {getFeaturedPosts} from "@/lib/utils"
 import { Fragment } from "react";
 const Dummy = {
   vegetarian: [
@@ -54,4 +55,12 @@ export default function Home() {
       <Menu props={Dummy}/>
     </Fragment>
   );
+}
+export function getStaticPosts(){
+  const items = getFeaturedPosts();
+  return {
+    props:{
+        posts: items
+    }
+}
 }
