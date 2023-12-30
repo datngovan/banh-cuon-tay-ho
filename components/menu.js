@@ -21,7 +21,7 @@ export default function Menu(props) {
       <div className="flex flex-row justify-around p-16 flex-wrap lg:gap-3">
      {/* {menuItems.map(item=><ItemGrid key={item.id} item={item}/>)} */}
       </div>
-      <div className="flex flex-row justify-center"><MoreButton/>12</div>
+      <div className="flex flex-row justify-center"><MoreButton/></div>
     </div>
   );
 }
