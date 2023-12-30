@@ -9,15 +9,15 @@ export default function Home(props) {
     <Fragment>
       <Cover/>
       <History/>
-      {/* <Menu props={props.posts}/> */}
+      <Menu props={props.posts}/>
     </Fragment>
   );
 }
-// export function getStaticProps(){
-//   const featuredPosts = getFeaturedPosts();
-//   return {
-//       props:{
-//           posts: featuredPosts
-//       }
-//   }
-// }
+export function getStaticProps(){
+  const featuredPosts = getFeaturedPosts();
+  return {
+      props:{
+          posts: featuredPosts
+      }
+  }
+}

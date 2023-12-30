@@ -1,7 +1,7 @@
 import ItemGrid from "./item-grid";
 import MoreButton from "./more-button";
 export default function Menu(props) {
-  console.log(props)
+  //console.log(props)
   return (
     <div className="bg-[#ffffff]">
       <h2 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
