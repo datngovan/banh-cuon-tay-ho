@@ -1,57 +1,23 @@
-import BreakLine from "@/components/break-line";
 import Cover from "@/components/layouts/cover";
 import History from "@/components/layouts/history";
 import NavigationBar from "@/components/layouts/navigation-bar";
 import Menu from "@/components/menu";
 import { Fragment } from "react";
-const Dummy = {
-  vegetarian: [
-    { id:1,
-      title: "BÁNH ƯỚT CHAY (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-    { id:2,
-      title: "BÁNH ƯỚT CHAY (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-    { id:3,
-      title: "BÁNH ƯỚT CHAY (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-  ],
-  "nonvegetarian": [
-    { id:4,
-      title: "BÁNH ƯỚT (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-    { id:5,
-      title: "BÁNH ƯỚT (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-    { id:6,
-      title: "BÁNH ƯỚT (KHÔNG NHÂN)",
-      englishTitle: "Steam Rice-Paper (No Filling)",
-      image: "/../image/rice-cake.png",
-      price: "34.000 VNĐ",
-    },
-  ],
-};
-export default function Home() {
+import { getFeaturedPosts, getVegetarianFeaturedPosts, getNonVegetarianFeaturedPosts } from "@/lib/utils";
+export default function Home(props) {
   return (
     <Fragment>
       <Cover/>
       <History/>
-      <Menu props={Dummy}/>
+      <Menu props={props.posts}/>
     </Fragment>
   );
+}
+export function getStaticProps(){
+  const featuredPosts = getFeaturedPosts();
+  return {
+      props:{
+          posts: featuredPosts
+      }
+  }
 }
