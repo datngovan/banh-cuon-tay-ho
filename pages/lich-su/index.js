@@ -1,13 +1,12 @@
-import Image from "next/image";
-import MoreButton from "../more-button";
-export default function History() {
-  return (
-    <div className="bg-[#ffffff] min-h-full">
+import Image from "next/image"
+export default function HistoryInfo(){
+    return (
+        <div className="bg-[#ffffff] min-h-full">
       <h2 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         LỊCH SỬ BÁNH CUỐN TÂY HỒ
       </h2>
       <div className="md:flex">
-        <div className="md:rotate-[-15deg] md:w-1/2 md:pl-40">
+        <div className="md:w-1/2 md:pl-40">
           <Image
             src="/../image/banhcuon.png"
             width={400}
@@ -50,7 +49,6 @@ export default function History() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-center pt-10"><MoreButton link="/lich-su"/></div>
-    </div>
-  );
+      </div>
+    )
 }

@@ -7,6 +7,7 @@ date: '2023-11-13'
 price: '34000'
 isFeatured: true
 isVegetarian: false
+type: "man"
 ---
 # Bánh cuốn thịt
 
