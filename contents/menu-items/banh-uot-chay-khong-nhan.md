@@ -5,7 +5,7 @@ englishTitle: "Vegetarian Steam Flat Cake (No Filiing)"
 image: "Bánh Ướt Chay (Không Nhân).jpg"
 excerpt: Bánh Ướt Chay Không Nhân
 date: '2023-11-13'
-price: '34000'
+price: '34.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

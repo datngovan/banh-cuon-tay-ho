@@ -5,7 +5,7 @@ englishTitle: "Pandan Leaf Steam Rice-Paper Rolls (Vegetable & Tofu)"
 image: "Cuốn Lá Dứa Nhân Rau củ, Đậu hủ.jpg"
 excerpt: BÁNH CUỐN LÁ DỨA NHÂN RAU CỦ, ĐẬU HỦ
 date: '2023-11-13'
-price: '34000'
+price: '34.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

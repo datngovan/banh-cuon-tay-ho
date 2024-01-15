@@ -5,7 +5,7 @@ englishTitle: "Vegan Bologna (2 pieces)"
 image: "Chả chay (2 miếng).jpg"
 excerpt: CHẢ CHAY 2 MIẾNG
 date: '2023-11-13'
-price: '8000'
+price: '8.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

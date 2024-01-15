@@ -5,7 +5,7 @@ englishTitle: "Vegetarian Shredded Meat Floss Steam Rice-Paper Rolls"
 image: "Bánh Cuốn Nhân Chay Thập Cẩm.jpg"
 excerpt: Bánh Cuốn Chay Nhân Thập Cẩm
 date: '2023-11-13'
-price: '40000'
+price: '40.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

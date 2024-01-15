@@ -50,7 +50,7 @@ export default function History() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-center pt-10"><MoreButton link="/lich-su"/></div>
+      <div className="flex flex-row justify-center pt-10 pb-20"><MoreButton link="/lich-su"/></div>
     </div>
   );
 }

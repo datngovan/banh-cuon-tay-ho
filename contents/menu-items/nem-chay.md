@@ -5,7 +5,7 @@ englishTitle: "Vegan Fermented Roll (2 pieces)"
 image: "Nem chay (2 miếng).jpg"
 excerpt: NEM CHAY
 date: '2023-11-13'
-price: '8000'
+price: '8.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

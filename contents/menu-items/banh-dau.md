@@ -5,7 +5,7 @@ englishTitle: "Bean cake"
 image: "Bánh đậu.jpg"
 excerpt: BÁNH ĐẬU
 date: '2023-11-13'
-price: '10000'
+price: '10.000'
 isFeatured: true
 isVegetarian: true
 type: "chay"

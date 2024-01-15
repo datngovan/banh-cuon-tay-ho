@@ -12,7 +12,7 @@ export default function NonVegetarianMenuPage(props){
             </div>
     </div>
     <div>
-    <ul className="grid grid-cols-4 justify-around p-16 flex-wrap lg:gap-3">
+    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between text-center p-16">
     {props.items.NonVegetarian.map(item=>
         (<li key={item.slug}><ItemGrid item={item}/></li>)
     )}
