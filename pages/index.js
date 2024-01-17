@@ -16,6 +16,7 @@ export default function Home(props) {
           href="restcipe.io.vn"
           key="canonical"
         />
+        
       </Head>
       <History/>
       <Menu props={props.items}/>
