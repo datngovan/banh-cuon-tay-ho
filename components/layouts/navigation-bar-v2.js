@@ -28,7 +28,7 @@ function NavigationBar() {
   }, []);
 
   return (
-    <header className="p-5 flex flex-col bg-[#ffe6c5] md:flex-row justify-center z-10">
+    <div className="p-5 flex flex-col bg-[#ffe6c5] md:flex-row justify-center z-10">
       <div className="flex">
         <Image src="/../icon/menu.svg" alt="menu_icon"
           width={35}
@@ -97,7 +97,7 @@ function NavigationBar() {
           
         }
       `}</style>
-    </header>
+    </div>
   );
 }
 
