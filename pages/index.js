@@ -16,7 +16,10 @@ export default function Home(props) {
           href="restcipe.io.vn"
           key="canonical"
         />
-        
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
       </Head>
       <History/>
       <Menu props={props.items}/>
