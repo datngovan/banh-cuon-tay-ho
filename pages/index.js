@@ -16,10 +16,10 @@ export default function Home(props) {
           href="restcipe.io.vn"
           key="canonical"
         />
-        <meta property="og:image" content="<generated>" />
-        <meta property="og:image:type" content="<generated>" />
-        <meta property="og:image:width" content="<generated>" />
-        <meta property="og:image:height" content="<generated>" />
+        <meta property="og:image" content="/../opengraph-image.png" />
+        <meta property="og:url" content="restcipe.io.vn" />
+        <meta property="og:title" content="Bánh Cuốn tây Hồ" />
+        <meta property="og:image:height" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)" />
       </Head>
       <History/>
       <Menu props={props.items}/>
