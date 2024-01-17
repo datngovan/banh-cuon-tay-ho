@@ -2,8 +2,19 @@ import ItemGrid from "@/components/item-grid";
 import TabButtons from "@/components/tab-button"
 import {getFeaturedPosts} from "@/lib/utils"
 import Link from "next/link";
+import Head from "next/head";
 export default function MenuPage(props){
-    return<><div className="pt-20 text-center font-bold text-primary-50 text-2xl">
+    return<>
+    <Head>
+        <title>Thực Đơn | Bánh Cuốn Tây Hồ</title>
+        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
+        <link
+          rel="canonical"
+          href="restcipe.io.vn/menu"
+          key="canonical"
+        />
+    </Head>
+      <div className="pt-20 text-center font-bold text-primary-50 text-2xl">
         THỰC ĐƠN
     </div><div>
             <div className="grid md:grid-cols-3 items-center justify-around mt-10 p-10">

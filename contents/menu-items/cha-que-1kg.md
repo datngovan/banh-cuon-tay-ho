@@ -2,7 +2,7 @@
 slug: cha-que-1kg
 title: CHẢ QUẾ (1KG)
 englishTitle: "Pork Bologna (1kg)"
-image: "Chả Quế.jpg"
+image: "Chaque.jpg"
 excerpt: Chả Quế Tây Hồ
 date: '2023-11-13'
 price: '300.000'

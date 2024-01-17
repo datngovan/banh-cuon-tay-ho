@@ -2,7 +2,7 @@
 slug: cha-chay-2-mieng
 title: CHẢ CHAY 2 MIẾNG
 englishTitle: "Vegan Bologna (2 pieces)"
-image: "Chả chay (2 miếng).jpg"
+image: "Chachay(2mieng).jpg"
 excerpt: CHẢ CHAY 2 MIẾNG
 date: '2023-11-13'
 price: '8.000'

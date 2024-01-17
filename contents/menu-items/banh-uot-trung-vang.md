@@ -2,7 +2,7 @@
 slug: banh-uot-trung-vang
 title: BÁNH ƯỚT TRỨNG VÀNG
 englishTitle: "Golden Egg Steam Flat Cake (No Filling)"
-image: "Bánh Ướt Trứng Vàng.jpg"
+image: "BanhUotTrungVang.jpg"
 excerpt: Bánh ướt trứng vàng Tây Hồ
 date: '2023-11-13'
 price: '40.000'

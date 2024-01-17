@@ -2,7 +2,7 @@
 slug: nem-hue-1-cay
 title: NEM HUẾ (1 CÂY 200 GRAM)
 englishTitle: " Fermented Pork Roll 200gram"
-image: "Nem Huế ( 1 cây ).jpg"
+image: "NemHue(1cay).jpg"
 excerpt: Nem Huế 1 cây 200 gram Tây Hồ 
 date: '2023-11-13'
 price: '60.000'

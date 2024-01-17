@@ -2,7 +2,7 @@
 slug: banh-cuon-cha-bong
 title: Bánh cuốn chà bông
 englishTitle: "Vegetarian Mixed Vegetables Steam Rice-Paper Rolls"
-image: "Bánh Cuốn Chà Bông.jpg"
+image: "BanhCuonChaBong.jpg"
 excerpt: Bánh Cuốn Chà Bông
 date: '2023-11-13'
 price: '40.000'

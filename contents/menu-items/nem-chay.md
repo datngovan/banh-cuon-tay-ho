@@ -2,7 +2,7 @@
 slug: nem-chay
 title: NEM CHAY (2 MIẾNG)
 englishTitle: "Vegan Fermented Roll (2 pieces)"
-image: "Nem chay (2 miếng).jpg"
+image: "Nemchay(2mieng).jpg"
 excerpt: NEM CHAY
 date: '2023-11-13'
 price: '8.000'

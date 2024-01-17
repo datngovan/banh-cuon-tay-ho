@@ -2,7 +2,7 @@
 slug: banh-uot-chay-khong-nhan
 title: Bánh Ướt Chay Không Nhân
 englishTitle: "Vegetarian Steam Flat Cake (No Filiing)"
-image: "Bánh Ướt Chay (Không Nhân).jpg"
+image: "BanhUotChay(KhongNhan).jpg"
 excerpt: Bánh Ướt Chay Không Nhân
 date: '2023-11-13'
 price: '34.000'

@@ -2,7 +2,7 @@
 slug: banh-uot-khong-co-nhan
 title: BÁNH ƯỚT KHÔNG CÓ NHÂN
 englishTitle: "Steam Flat Cake (No Filling)"
-image: "Bánh Ướt (Không Có Nhân).jpg"
+image: "BanhUot(KhongCoNhan).jpg"
 excerpt: Bánh ướt không có nhân Tây Hồ
 date: '2023-11-13'
 price: '34.000'

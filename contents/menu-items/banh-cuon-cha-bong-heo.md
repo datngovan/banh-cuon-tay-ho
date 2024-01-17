@@ -2,7 +2,7 @@
 slug: banh-cuon-cha-bong-heo
 title: BÁNH CUỐN CHÀ BÔNG HEO
 englishTitle: "Shredded Pork Floss Steam Rice-Paper Roll"
-image: "Nhân Chà Bông Heo.jpg"
+image: "NhanChaBongHeo.jpg"
 excerpt: Bánh Cuốn Chà Bông Heo Tây Hồ 
 date: '2023-11-13'
 price: '44.000'

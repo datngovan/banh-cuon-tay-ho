@@ -4,9 +4,9 @@ export default function Menu(props) {
   const data = props.props;
     return (
     <div className="bg-[#FFEEE1]">
-      <h2 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
+      <h1 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         THỰC ĐƠN
-      </h2>
+      </h1>
       <h2 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         MÓN CHAY
       </h2>

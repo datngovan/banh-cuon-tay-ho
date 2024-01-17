@@ -1,7 +1,19 @@
+import Head from "next/head";
 import Image from "next/image"
+import { Fragment } from "react";
 export default function HistoryInfo(){
   return (
-    <div className="flex items-center flex-col px-8">
+    <Fragment>
+    <Head>
+    <title>Trang Lịch Sử | Bánh Cuốn Tây Hồ</title>
+        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
+        <link
+          rel="canonical"
+          href="restcipe.io.vn/lich-su"
+          key="canonical"
+        />
+    </Head>
+      <div className="flex items-center flex-col px-8">
       <h1 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         {" "}
         LỊCH SỬ BÁNH CUỐN TÂY HỒ
@@ -60,5 +72,6 @@ export default function HistoryInfo(){
         </div>
       </div>
     </div>
+    </Fragment>
   );
 }

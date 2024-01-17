@@ -2,7 +2,7 @@
 slug: banh-cam
 title: BÁNH CAM
 englishTitle: "Tây Hồ Doughnuts"
-image: "Bánh cam.jpg"
+image: "Banhcam.jpg"
 excerpt: Bánh cam Tây Hồ
 date: '2023-11-13'
 price: '9.000'

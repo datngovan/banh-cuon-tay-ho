@@ -2,7 +2,7 @@
 slug: banh-dau
 title: BÁNH ĐẬU
 englishTitle: "Bean cake"
-image: "Bánh đậu.jpg"
+image: "BanhDau.jpg"
 excerpt: BÁNH ĐẬU
 date: '2023-11-13'
 price: '10.000'

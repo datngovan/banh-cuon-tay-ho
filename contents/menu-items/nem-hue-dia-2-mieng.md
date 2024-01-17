@@ -2,7 +2,7 @@
 slug: nem-hue-dia-2-mieng
 title: NEM HUẾ (ĐĨA 2 MIẾNG)
 englishTitle: "Fermented Pork Rolls (2 Pieces)"
-image: "Nem Huế (Đĩa 2 miếng).jpg"
+image: "NemHue(Dia2Mieng).jpg"
 excerpt: Nem Huế 2 miếng Tây Hồ 
 date: '2023-11-13'
 price: '20.000'

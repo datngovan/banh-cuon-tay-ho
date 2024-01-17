@@ -1,6 +1,19 @@
+import Head from "next/head";
 import Image from "next/image";
+export const metadata = {
+  title: "Bánh Cuốn Tây Hồ"
+}
 export default function Recruitment(){
     return(<div>
+      <Head>
+    <title>Trang Tuyển Dụng | Bánh Cuốn Tây Hồ</title>
+        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
+        <link
+          rel="canonical"
+          href="restcipe.io.vn/recuitment"
+          key="canonical"
+        />
+    </Head>
       <div className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         Tuyển Dụng
       </div>
