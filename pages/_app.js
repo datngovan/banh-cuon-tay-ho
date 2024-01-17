@@ -1,6 +1,6 @@
 import '@/styles/globals.css'
 import { Fragment } from 'react'
-import NavigationBarV2 from '@/components/layouts/navigation-bar-v2'
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Cover from '@/components/layouts/cover'
 import Footer from '@/components/layouts/footer'
 export default function App({ Component, pageProps }) {
@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }) {
     <Cover/>
     <Component {...pageProps} />
     <Footer/>
+    <SpeedInsights />
   </Fragment> 
   
 }
