@@ -30,7 +30,7 @@ function NavigationBar() {
   return (
     <div className="p-5 flex flex-col bg-[#ffe6c5] md:flex-row justify-center z-10">
       <div className="flex">
-        <Image src="/../icon/menu.svg" alt="menu_icon"
+        <Image src="/../icons/menu.svg" alt="menu_icon"
           width={35}
           height={35}
           onClick={toggleMenu}
@@ -40,7 +40,7 @@ function NavigationBar() {
           <span className="text-2xl font-[Poppins] cursor-pointer">
             <Link href="/">
               <Image
-                alt="banh cuon logo"
+                alt="Bánh Cuốn Tây Hồ"
                 className="inline"
                 width={160}
                 height={60}
@@ -58,12 +58,12 @@ function NavigationBar() {
         }`}
       >
         <ul className="flex flex-col md:flex-row">
-          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full" onClick={toggleMenu}>
             <Link href="/" className="text-xl hover:text-cyan-500 duration-300">
               Trang Chủ
             </Link>
           </li>
-          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full" onClick={toggleMenu}>
             <Link
               href="/menu"
               className="text-xl hover:text-cyan-500 duration-300"
@@ -71,7 +71,7 @@ function NavigationBar() {
               Thực Đơn
             </Link>
           </li>
-          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full" onClick={toggleMenu}>
             <Link
               href="/recruitment"
               className="text-xl hover:text-cyan-500 duration-300"
@@ -79,7 +79,7 @@ function NavigationBar() {
               Tuyển Dụng
             </Link>
           </li>
-          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+          <li className="bg-white w-48 mb-5 text-center px-2 py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full" onClick={toggleMenu}>
             <Link
               href="/contacts"
               className="text-xl hover:text-cyan-500 duration-300"

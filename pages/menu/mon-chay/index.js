@@ -7,8 +7,7 @@ export default function VegetarianMenuPage(props){
     return<>
     <Head>
         <title>Thực Đơn Chay | Bánh Cuốn Tây Hồ</title>
-        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
-        <link
+       <link
           rel="canonical"
           href="restcipe.io.vn/menu/mon-chay"
           key="canonical"
@@ -17,7 +16,7 @@ export default function VegetarianMenuPage(props){
       <div className="pt-20 text-center font-bold text-primary-50 text-2xl">
         THỰC ĐƠN
     </div><div>
-            <div className="grid grid-cols-3 items-center justify-around mt-10 p-10">
+            <div className="grid grid-cols-3 items-center justify-around md:mt-10 md:p-10 py-5">
                 <TabButtons name="TẤT CẢ" id="all" value="TẤT CẢ" link="/menu">TẤT CẢ</TabButtons>  
                 <TabButtons name="BÁNH MẶN" id="nonVegetarian" link="/menu/mon-man" value="BÁNH MẶN">BÁNH MẶN</TabButtons>
                 <TabButtons name="BÁNH CHAY" id="Vegetarian" link="/menu/mon-chay" actived="true" value="BÁNH CHAY">BÁNH CHAY</TabButtons>

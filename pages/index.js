@@ -10,17 +10,11 @@ export default function Home(props) {
     <Fragment>
       <Head>
         <title>Bánh Cuốn Tây Hồ</title>
-        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
         <link
           rel="canonical"
-          href="restcipe.io.vn"
+          href="https://restcipe.io.vn"
           key="canonical"
         />
-        <meta property="og:image" content="https://banh-cuon-tay-ho.vercel.app/opengraph-image.png"/>
-        <meta property="og:url" content="restcipe.io.vn" />
-        <meta property="og:title" content="Bánh Cuốn tây Hồ" />
-        <meta property="og:title" content="website" />
-        <meta property="og:description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)" />
       </Head>
       <History/>
       <Menu props={props.items}/>

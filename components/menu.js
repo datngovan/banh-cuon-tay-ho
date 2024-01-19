@@ -5,7 +5,7 @@ export default function Menu(props) {
     return (
     <div className="bg-[#FFEEE1]">
       <h1 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
-        THỰC ĐƠN
+        THỰC ĐƠN BÁNH CUỐN TÂY HỒ
       </h1>
       <h2 className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         MÓN CHAY

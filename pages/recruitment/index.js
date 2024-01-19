@@ -7,7 +7,6 @@ export default function Recruitment(){
     return(<div>
       <Head>
     <title>Trang Tuyển Dụng | Bánh Cuốn Tây Hồ</title>
-        <meta name="description" content="Bánh cuốn hay còn gọi là Bánh Xuân, Bánh Ướt (khi không có nhân) được làm từ bột gạo, hấp, tráng mỏng và cuộn tròn, bên trong có thể có các loại nhân (thịt, mộc nhĩ…)"/>
         <link
           rel="canonical"
           href="restcipe.io.vn/recuitment"
