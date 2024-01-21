@@ -4,7 +4,7 @@ export const metadata = {
   title: "Bánh Cuốn Tây Hồ"
 }
 export default function Recruitment(){
-    return(<div>
+    return(<div className="pb-10">
       <Head>
     <title>Trang Tuyển Dụng | Bánh Cuốn Tây Hồ</title>
         <link

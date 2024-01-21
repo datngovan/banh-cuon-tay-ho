@@ -1,44 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://restcipe.io.vn/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>https://restcipe.io.vn/menu/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
     <loc>https://restcipe.io.vn/menu/mon-chay/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
     <loc>https://restcipe.io.vn/menu/mon-man/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://restcipe.io.vn/recruitment/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://restcipe.io.vn/contacts/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
     <url>
     <loc>https://restcipe.io.vn/lich-su/</loc>
-    <lastmod>2024-01-19T15:35:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 </urlset>

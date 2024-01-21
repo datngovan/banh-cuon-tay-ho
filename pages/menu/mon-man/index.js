@@ -1,6 +1,6 @@
 import ItemGrid from "@/components/item-grid";
 import TabButtons from "@/components/tab-button"
-import {getFeaturedPosts} from "@/lib/utils"
+import {getAllNonVegePosts} from "@/lib/utils"
 import Head from "next/head";
 export default function NonVegetarianMenuPage(props){
     return<>
@@ -15,7 +15,7 @@ export default function NonVegetarianMenuPage(props){
     <div className="pt-20 text-center font-bold text-primary-50 text-2xl">
         THỰC ĐƠN
     </div><div>
-            <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-around mt-10 p-10">
+            <div className="grid grid-cols-3 items-center justify-around md:mt-10 md:p-10 mt-5 p-5">
                 <TabButtons name="TẤT CẢ" id="all" value="TẤT CẢ" link="/menu">TẤT CẢ</TabButtons>
                 <TabButtons name="BÁNH MẶN" id="nonVegetarian" link="/menu/mon-man" actived="true" value="BÁNH MẶN">BÁNH MẶN</TabButtons>
                 <TabButtons name="BÁNH CHAY" id="Vegetarian" link="/menu/mon-chay" value="BÁNH CHAY">BÁNH CHAY</TabButtons>
@@ -23,7 +23,7 @@ export default function NonVegetarianMenuPage(props){
     </div>
     <div>
     <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between text-center p-16">
-    {props.items.NonVegetarian.map(item=>
+    {props.items.map(item=>
         (<li key={item.slug}><ItemGrid item={item}/></li>)
     )}
     </ul>
@@ -31,7 +31,7 @@ export default function NonVegetarianMenuPage(props){
     </>
 }
 export function getStaticProps(){
-  const data = getFeaturedPosts();
+  const data = getAllNonVegePosts();
   return {
       props:{
           items: data

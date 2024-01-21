@@ -17,7 +17,7 @@ export default function ItemGrid(props) {
       id={isVegetarian ? "vege" : "non"}
     >
       <Image
-        src={imagePath}
+        src={image}
         alt="img"
         width={370}
         height={370}

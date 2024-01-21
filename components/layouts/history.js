@@ -9,10 +9,10 @@ export default function History() {
       <div className="md:flex">
         <div className="md:rotate-[-15deg] md:w-1/2 md:pl-40">
           <Image
-            src="/../image/banhcuon.png"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpRH-VTdvqyNP2e3GYT3lGT16V2YblEpP9ocUUQz5q3wlAHEjaxFEihNZ0o5U4m5z8WEIK7heVSKxrHVprtuZdp50IY7CbqA2q1yTZZ5TFW3B6aFA-bi5m6Dno732hJwHPJUn5L98gY0GtrnUw0legjxIx5VChBHTj54-85VR2yjKbaQ/s1600/Anh%20vẽ%20Lịch%20sử.png"
             width={400}
             height={400}
-            alt="banh cuon"
+            alt="Ảnh Bánh Cuốn Tây Hồ"
             className="mx-auto md:mx-0"
           ></Image>
         </div>
