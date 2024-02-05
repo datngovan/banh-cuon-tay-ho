@@ -1,18 +1,36 @@
 import Head from "next/head";
 import Image from "next/image";
+import { NextSeo } from "next-seo";
 export const metadata = {
   title: "Bánh Cuốn Tây Hồ"
 }
 export default function Recruitment(){
     return(<div className="pb-10">
-      <Head>
-    <title>Trang Tuyển Dụng | Bánh Cuốn Tây Hồ</title>
-        <link
-          rel="canonical"
-          href="restcipe.io.vn/recuitment"
-          key="canonical"
+     <NextSeo
+          title="Cơ Hội Việc Làm | Bánh Cuốn Tây Hồ"
+          description="Cơ hội việc làm bánh cuốn Tây Hồ lương khởi điểm hấp dẫn 22.000 VNĐ/h cùng nhiều đãi ngộ khác. Liên hệ để biết thêm chi tiết"
+          canonical="hhttps://restcipe.io.vn/thong-tin-tuyen-dung/"
+          openGraph={{
+            url: "https://restcipe.io.vn/thong-tin-tuyen-dung/",
+            title: "Bánh Cuốn Tây Hồ | Thực Đơn | 127 Đinh Tiên Hoàng ĐaKao Quận 1",
+            description: "Bánh Cuốn Tây Hồ, 127 Đinh Tiên Hoàng, ĐaKao, Quận 1, Thành Phố Hồ Chí Minh, VietNam",
+            images: [
+              {
+                url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0X66SXycfAYUxmWFHYZMZHZQslp-dwyJBhoiQv5P1br2jaYmUb4ap_5ryXq2HAjj1ymyL1qWNlAf_QOgG1l1pWxx8oYI0aMwsV6TPPQWy0vtOV8-mhwviZZK_Z_xtnFSrkDmN9IYUTCUxz9qJRKO9iSprNuhx1A58gYKFfu0Id8tYmQ/s400-rw-l50/BANNER%20HOME%203.jpg",
+                width: 800,
+                height: 600,
+                alt: "Banhs C",
+                type: "image/jpg",
+              },
+            ],
+            siteName: "Bánh Cuốn Tây Hồ, 127 Đinh Tiên Hoàng, ĐaKao, Quận 1, Thành Phố Hồ Chí Minh, VietNam",
+          }}
+          twitter={{
+            handle: "@handle",
+            site: "@site",
+            cardType: "summary_large_image",
+          }}
         />
-    </Head>
       <div className="grow text-center font-semibold text-3xl py-10 text-primary-60">
         Tuyển Dụng
       </div>
@@ -56,6 +74,7 @@ export default function Recruitment(){
             height={180}
             alt="banh cuon"
             className=""
+            quality={70}
           ></Image>
         </div>
       </div>

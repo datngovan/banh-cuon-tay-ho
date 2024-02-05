@@ -1,4 +1,6 @@
+import bloggerLoader from "@/lib/my-loader";
 import Image from "next/image";
+import Link from "next/link";
 export default function ItemGrid(props) {
   const {
     slug,
@@ -10,18 +12,18 @@ export default function ItemGrid(props) {
     isVegetarian,
     englishTitle,
   } = props.item;
-  const imagePath = `/../image/${image}`;
   return (
     <div
       className="flex flex-col items-center border-white border-2 bg-white p-2 rounded-lg my-5 mx-1"
       id={isVegetarian ? "vege" : "non"}
     >
       <Image
+      loader={bloggerLoader}
         src={image}
-        alt="img"
+        alt={title}
         width={370}
         height={370}
-        unoptimized
+        quality={40}
         className="rounded-[20px]"
       />
       <div className="text-green-600 text-xl min-h-14 font-semibold mt-2 px-10">

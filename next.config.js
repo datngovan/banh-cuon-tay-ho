@@ -11,7 +11,9 @@ const nextConfig = {
     return config;
   },
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './lib/my-loader.js',
+    // unoptimized: true,
   },
   trailingSlash: true,
 }

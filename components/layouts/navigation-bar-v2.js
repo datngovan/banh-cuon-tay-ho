@@ -32,6 +32,7 @@ function NavigationBar() {
       <div className="flex">
         <Image
           src="/../icons/menu.svg"
+          unoptimized
           alt="menu_icon"
           width={35}
           height={35}
@@ -47,6 +48,7 @@ function NavigationBar() {
                 sizes="100vw"
                 width={160}
                 height={60}
+                quality={20}
                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZZA826URw6KEQ9S2eNB1FOvgECmM-SF50N4dL-xRZ4qLUvvhfmeaud1wBq9t1ddmmpdqnEv9XhyC5BNibAYivuAKXp_ZZeVvVMIqwmbrdBQQt2cDTozMvKd1zqhpi6uIsTOAJoMzg7ln5s0nCmyfdZ6pDDH62l4r8qrRpRR0OMxZ3HQ/s1600/logo.png"
               />
             </Link>
@@ -71,7 +73,7 @@ function NavigationBar() {
             </li>
             <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
-                href="/menu"
+                href="/thuc-don"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
               >
                 Thực Đơn
@@ -79,7 +81,7 @@ function NavigationBar() {
             </li>
             <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
-                href="/recruitment"
+                href="/thong-tin-tuyen-dung"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
               >
                 Tuyển Dụng
@@ -87,7 +89,7 @@ function NavigationBar() {
             </li>
             <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
-                href="/contacts"
+                href="/thong-tin-lien-he"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
               >
                 Liên Hệ

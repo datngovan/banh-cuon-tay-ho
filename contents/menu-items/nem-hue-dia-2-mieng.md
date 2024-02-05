@@ -10,6 +10,5 @@ isFeatured: false
 isVegetarian: false
 type: "man"
 ---
-# Bánh cuốn chay Tây Hồ
 
-Đây là content về bánh cuốn. Đây là content về bánh cuốn. Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.Đây là content về bánh cuốn. Đây là content về bánh cuốn.
+

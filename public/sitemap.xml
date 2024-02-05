@@ -1,44 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://restcipe.io.vn/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://restcipe.io.vn/menu/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-    <url>
-    <loc>https://restcipe.io.vn/menu/mon-chay/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-    <url>
-    <loc>https://restcipe.io.vn/menu/mon-man/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://restcipe.io.vn/recruitment/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://restcipe.io.vn/contacts/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-    <url>
-    <loc>https://restcipe.io.vn/lich-su/</loc>
-    <lastmod>2024-01-20T01:35:24.021Z</lastmod>
+    <loc>https://restcipe.io.vn/thuc-don/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+    <url>
+    <loc>https://restcipe.io.vn/thuc-don/mon-chay/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+    <url>
+    <loc>https://restcipe.io.vn/thuc-don/mon-man/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://restcipe.io.vn/thong-tin-tuyen-dung/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://restcipe.io.vn/thong-tin-lien-he/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+    <url>
+    <loc>https://restcipe.io.vn/lich-su-banh-cuon-tay-ho/</loc>
+    <lastmod>2024-01-27T19:08:24.021Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
