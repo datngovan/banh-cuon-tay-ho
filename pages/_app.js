@@ -4,8 +4,12 @@ import Cover from "@/components/layouts/cover";
 import Footer from "@/components/layouts/footer";
 import Head from "next/head";
 import { DefaultSeo } from "next-seo";
+import { Inter } from 'next/font/google'
+// If loading a variable font, you don't need to specify the font weight
+const inter = Inter({ subsets: ['latin'] })
 // import your default seo configuration
 import SEO from "../next-seo.config";
+import NavigationBar from "@/components/layouts/navigation-bar-v2";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -30,10 +34,11 @@ export default function App({ Component, pageProps }) {
         <meta httpEquiv ="Content-Language" content="vi" />
         <meta name="Language" content="vi" />
         <meta content="text/html; charset=UTF-8" httpEquiv="Content-Type"/>
+        
       </Head>
       <DefaultSeo {...SEO} />
-      <Cover />
-      <Component {...pageProps} />
+      <NavigationBar />
+      <Component {...pageProps}/>
       <Footer />
     </Fragment>
   );

@@ -63,7 +63,7 @@ function NavigationBar() {
           }`}
         >
           <ul className="flex flex-col md:flex-row">
-            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center px-3 py-1 lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
                 href="/"
                 className=" text-base lg:text-xl hover:text-cyan-500 duration-300"
@@ -71,7 +71,7 @@ function NavigationBar() {
                 Trang Chủ
               </Link>
             </li>
-            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center px-3 py-1 lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
                 href="/thuc-don"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
@@ -79,7 +79,7 @@ function NavigationBar() {
                 Thực Đơn
               </Link>
             </li>
-            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center px-3 py-1 lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
                 href="/thong-tin-tuyen-dung"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
@@ -87,7 +87,7 @@ function NavigationBar() {
                 Tuyển Dụng
               </Link>
             </li>
-            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
+            <li className="bg-white md:w-24 lg:w-48 mb-5 text-center px-3 py-1 lg:px-2 lg:py-2 md:my-0 hover:bg-primary-40 hover:text-[#FFFFFF] hover:font-semibold rounded-full">
               <Link
                 href="/thong-tin-lien-he"
                 className="text-base lg:text-xl hover:text-cyan-500 duration-300"
