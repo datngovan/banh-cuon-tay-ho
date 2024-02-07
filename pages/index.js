@@ -1,5 +1,6 @@
 import History from "@/components/layouts/history";
 import Menu from "@/components/menu";
+import Cover from "@/components/layouts/cover";
 import { getFeaturedPosts } from "@/lib/utils";
 import { Fragment } from "react";
 import { NextSeo } from "next-seo";
@@ -38,6 +39,7 @@ export default function Home(props) {
         //   noarchive: true,
         // }}
       />
+      <Cover/>
       <History />
       <Menu props={props.items} />
     </Fragment>

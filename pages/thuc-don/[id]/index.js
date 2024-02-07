@@ -4,7 +4,7 @@ import fs from "fs"
 import path from "path"
 import { Fragment } from "react";
 export default function MenuItemDetails(props) {
-  const {title, englishTitle, image, price, content} = props.items[0];
+  const {title, englishTitle, image, price, content} = props.items;
   return <Fragment>
     <h1 className="flex justify-center text-3xl font-bold text-primary-50">CHI TIẾT MÓN ĂN</h1>
     <div className="flex justify-around pb-10">
