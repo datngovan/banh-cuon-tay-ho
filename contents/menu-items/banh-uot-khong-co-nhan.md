@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: false
 type: "man"
 ---
-
+Lát bánh tráng mỏng, mịn không có nhân. Thực khách sẽ được nếm kĩ vị bột bánh dẻo cùng một chút dầu chiên hành phi thơm lừng.
 

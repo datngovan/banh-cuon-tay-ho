@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: false
 type: "man"
 ---
-
+Vẫn là loại nhân truyền thống nhưng vỏ bánh được tráng thêm lớp trứng gà thơm lừng.
 

@@ -10,5 +10,6 @@ isFeatured: false
 isVegetarian: false
 type: "man"
 ---
+Hai loại chả truyền thống của quán, được làm từ thịt heo. Loại chả lụa được gói bằng lá chuối hấp lên thơm ngon, chả quế đậm đà được nướng lên nên sẽ có 1 lớp áo màu cam vàng bên ngoài
 
 

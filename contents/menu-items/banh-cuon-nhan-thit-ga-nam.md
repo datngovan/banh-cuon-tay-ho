@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: false
 type: "man"
 ---
-
+Cũng là một loại nhân mới, quán chỉ chọn ức gà đảm bảo sức khoẻ kết hợp với củ sắn nấm mèo giòn sựt sựt.
 

@@ -11,4 +11,5 @@ isVegetarian: false
 type: "man"
 ---
 
+Vẫn là loại nhân truyền thống hơn 60 năm của quán nhưng nhân thịt nhiều và dày dặn hơn, thích hợp cho những ai muốn thưởng thức nhân bánh nhiều.
 

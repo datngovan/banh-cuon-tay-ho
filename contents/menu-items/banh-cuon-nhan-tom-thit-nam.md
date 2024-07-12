@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: false
 type: "man"
 ---
-
+Một loại nhân mới của quán, tôm thịt được nêm nếm gia vị kĩ càng cùng với nấm mèo giòn sựt sựt khi ăn.
 

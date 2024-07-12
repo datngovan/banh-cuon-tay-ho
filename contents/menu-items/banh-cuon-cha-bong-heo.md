@@ -10,5 +10,5 @@ isFeatured: false
 isVegetarian: false
 type: "man"
 ---
-
+Vỏ bánh tráng mỏng, mịn được kết hợp cùng sợi chà bông heo
 

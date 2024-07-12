@@ -10,5 +10,5 @@ isFeatured: false
 isVegetarian: false
 type: "man"
 ---
-
+Loại bánh truyền thống của Việt Nam, nhưng bánh cam của quán đặc biệt ở chỗ quán tự tay làm, bên trong có nhân đậu xanh ngọt và bên ngoài được áo lên một lớp vỏ bột cam chiên thật giòn kết hợp cùng lớp mè thơm lừng
 

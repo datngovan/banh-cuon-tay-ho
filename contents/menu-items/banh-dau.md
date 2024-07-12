@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: true
 type: "chay"
 ---
-
+Hay được gọi là bánh tôm, bánh cóng tuỳ vùng miền. Bánh đậu tự tay quán làm nên sẽ được chọn lựa đậu xanh kĩ càng và áo lên lớp bột chiên giòn thơm ngon.
 

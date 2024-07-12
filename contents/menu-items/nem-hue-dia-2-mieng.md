@@ -10,5 +10,5 @@ isFeatured: false
 isVegetarian: false
 type: "man"
 ---
-
+Loại nem chua chua ngọt ngọt, có thêm tỏi và ớt nên sẽ được tăng mùi vị thơm ngon cho thực khách khi nếm thử
 

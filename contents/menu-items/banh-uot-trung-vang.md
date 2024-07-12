@@ -10,5 +10,5 @@ isFeatured: true
 isVegetarian: false
 type: "man"
 ---
-
+Lát bánh tráng mỏng, mịn không có nhân. Được tráng thêm một lớp trứng vàng thơm ngon
 

@@ -11,4 +11,4 @@ isVegetarian: false
 type: "man"
 ---
 
-
+Lát bánh tráng mỏng, mịn được kết hợp cùng chà bông tôm 
