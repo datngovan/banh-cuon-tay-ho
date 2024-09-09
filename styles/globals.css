@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #FFF7ED;
+  background-color: #fff7ed;
   font-family: Inter;
 }
 
@@ -14,10 +14,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }

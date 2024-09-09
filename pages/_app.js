@@ -1,19 +1,17 @@
 import "@/styles/globals.css";
-import { Fragment } from "react";
-import Cover from "@/components/layouts/cover";
 import Footer from "@/components/layouts/footer";
 import Head from "next/head";
 import { DefaultSeo } from "next-seo";
-import { Inter } from 'next/font/google'
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({ subsets: ['latin'] })
-// import your default seo configuration
+import { Playfair_Display } from "next/font/google";
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+});
 import SEO from "../next-seo.config";
 import NavigationBar from "@/components/layouts/navigation-bar-v2";
 
 export default function App({ Component, pageProps }) {
   return (
-    <Fragment>
+    <div className={playfair.className}>
       <Head>
         {/* <!-- Tăng tốc tải blog --> */}
         <link href="https://blogger.googleusercontent.com" rel="dns-fetch" />
@@ -30,17 +28,15 @@ export default function App({ Component, pageProps }) {
         <link href="//www.google-analytics.com" rel="dns-prefetch" />
         <link href="//www.googletagservices.com" rel="dns-prefetch" />
         <link href="//fonts.googleapis.com" rel="dns-prefetch" />
-        <meta charSet="utf-8"/>
-        <meta httpEquiv ="Content-Language" content="vi" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="Content-Language" content="vi" />
         <meta name="Language" content="vi" />
-        <meta content="text/html; charset=UTF-8" httpEquiv="Content-Type"/>
-        
+        <meta content="text/html; charset=UTF-8" httpEquiv="Content-Type" />
       </Head>
       <DefaultSeo {...SEO} />
       <NavigationBar />
-      <Component {...pageProps}/>
+      <Component {...pageProps} />
       <Footer />
-    </Fragment>
+    </div>
   );
 }
-
