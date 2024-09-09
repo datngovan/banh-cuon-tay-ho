@@ -1,4 +1,4 @@
-import ItemGrid from "./item-grid";
+import ItemGrid from "./menu-item-grid";
 import MoreButton from "./more-button";
 export default function Menu(props) {
   const data = props.props;
